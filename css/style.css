@@ -1,0 +1,17 @@
+/*import fonts*/
+@font-face { font-family: RobotoLight; src: url('fonts/Roboto-Light.ttf'); }
+@font-face { font-family: RobotoBold; src: url('fonts/Roboto-Bold.ttf'); }
+/*BEGIN CSS*/
+body{
+	background:#fff url(../images/background.jpg) repeat;
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	height: auto;
+	/*overflow-x:hidden;*/
+}
+/*
+Responsive images
+*/
+img.res {width: 100%; display: block; max-width: 100%;}
